@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 void calculaNota(){
-    int qnt_alunos = 10, i = 0;
+    int qnt_alunos = 15, i = 0;
     float notas[qnt_alunos];
     float nota, soma = 0, media;
 
