@@ -2,7 +2,7 @@
 
 int main(){
 
-    int linhas = 3, colunas = 3, indice;
+    int linhas = 6, colunas = 6, indice;
     float media = 0;
     int mat[linhas][colunas];
 
