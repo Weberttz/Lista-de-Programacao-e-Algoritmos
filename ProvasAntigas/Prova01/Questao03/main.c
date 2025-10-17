@@ -46,8 +46,8 @@ int main(){
 
     printf("\n");
 
-	for(int i=linhas; i > 0; i--){
-		printf("A media do rio %d eh: %.2f\n", indices[i], medias[i]); 
+	for(int i=0; i<linhas; i++){
+		printf("A media do rio %d eh: %f\n", indices[i], medias[i]); 
 	}
 
 	printf("\nMatriz Original\n\n");
@@ -70,3 +70,5 @@ int main(){
 	
  	return 0;
 }
+
+
