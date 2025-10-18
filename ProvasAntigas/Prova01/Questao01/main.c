@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 
 int main(){
@@ -23,9 +24,12 @@ int main(){
         }
     }
 
-    for(int i=0; i<qnt; i++){
+    /*for(int i=0; i<qnt; i++){
         printf("%.2f ", lanches[i]);
-    }
+    }*/
+
+    printf("O lanche com menor valor eh %.2f", lanches[qnt-1]);
+    printf("O lanche com maior valor eh %.2f", lanches[0]);
 
     return 0;
 }
