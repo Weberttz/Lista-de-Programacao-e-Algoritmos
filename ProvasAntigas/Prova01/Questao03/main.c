@@ -4,6 +4,8 @@
 int main(){
 	int linhas = 4, colunas = 5, indices[linhas];
 	float maior = 0, medias[4] = {0}, matriz[linhas][colunas];
+
+	printf("Digite a matriz %dx%d:\n\n", linhas, colunas);
 	
 	for(int i=0; i<linhas; i++){
 		for(int j = 0; j<colunas; j++){
@@ -16,10 +18,10 @@ int main(){
 	
 	for(int i=0; i<linhas; i++){
 		for(int j = 0; j<colunas; j++){
-			matriz[i][j]/=maior;
-			medias[i] += matriz[i][j];
+			float media = matriz[i][j]/maior;
+			medias[i] += media;
 		}
-		indices[i] = i;
+		indices[i] = i+1;
 		medias[i]/= colunas;
 	}
 
@@ -40,14 +42,14 @@ int main(){
 
 	for(int i=0; i<linhas; i++){
 		for(int j = 0; j<colunas; j++){
-			nova_matriz[i][j] = matriz[indices[i]][j];
+			nova_matriz[i][j] = matriz[indices[i]-1][j];
 		}
 	}
 
     printf("\n");
 
 	for(int i=0; i<linhas; i++){
-		printf("A media do rio %d eh: %f\n", indices[i], medias[i]); 
+		printf("A media do rio %d eh: %.2f\n", indices[i], medias[i]); 
 	}
 
 	printf("\nMatriz Original\n\n");
