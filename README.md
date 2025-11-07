@@ -1,6 +1,6 @@
 # Estrutura das Listas
 
-O repositório está organizado em duas listas principais, cada uma com exercícios resolvidos em C:
+O repositório está organizado em três listas principais, cada uma com exercícios resolvidos em C:
 
 ## Lista1 - Algoritmos
 - Contém exercícios sobre algoritmos básicos, estruturas de decisão e repetição.
