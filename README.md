@@ -15,9 +15,9 @@ O repositório está organizado em duas listas principais, cada uma com exercíc
 - O arquivo `Lista de Exercicios - Vetores e matrizes.pdf` contém o enunciado.
 
 ## Lista3 - Struct e Strings
--- Focada em exercícios sobre algoritmos básicos utilizando structs e manipulações de strings
--- Estrutura semelhante às listas anteriores, com pastas para cada questão.
--- o arquivo `Lista de Exercicios - Struct, string e matriz.pdf` contém o enunciado das questões.
+- Focada em exercícios sobre algoritmos básicos utilizando structs e manipulações de strings
+- Estrutura semelhante às listas anteriores, com pastas para cada questão.
+- o arquivo `Lista de Exercicios - Struct, string e matriz.pdf` contém o enunciado das questões.
 
 --- 
 
