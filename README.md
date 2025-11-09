@@ -1,6 +1,6 @@
 # Estrutura das Listas
 
-O repositório está organizado em três listas principais, cada uma com exercícios resolvidos em C:
+O repositório está organizado em quatro listas principais, cada uma com exercícios resolvidos em C:
 
 ## Lista1 - Algoritmos
 - Contém exercícios sobre algoritmos básicos, estruturas de decisão e repetição.
@@ -18,6 +18,11 @@ O repositório está organizado em três listas principais, cada uma com exercí
 - Focada em exercícios sobre algoritmos básicos utilizando structs e manipulações de strings
 - Estrutura semelhante às listas anteriores, com pastas para cada questão.
 - O arquivo `Lista de Exercicios - Struct, string e matriz.pdf` contém o enunciado das questões.
+
+## Lista4 - Funções 
+- Contém exercícios utilizando funções, com o intuito de minimizar as linhas e otimizar o programa.
+- Estruturada semelhante ás demais, com cada questão separada por pastas.
+- O arquivo `Lista de Exercicios - Funcoes.pdf` contém os enencunciados.
 
 --- 
 
