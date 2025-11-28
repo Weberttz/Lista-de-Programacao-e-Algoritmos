@@ -1,0 +1,28 @@
+Explicacoes:
+
+O que eh um ponteiro?
+
+Um ponteiro eh uma variavel que armazena o endereco de memoria de uma variavel. Ele permite a modificacao do conteudo dessa variavel, desde
+que seja do mesmo tipo dela. Vale ressaltar que eh grande importancia para a alocacao dinamica de vetores.
+
+sintaxe de declaracao de um ponteiro: tipo *nome_do_ponteiro
+
+O que eh um ponteiro para ponteiro?
+
+Um ponteiro para ponteiro eh aquilo que armazena o endereco de memoria de um outro ponteiro. eh utilizado para manipular matrizes com mais 
+flexibilidade. 
+
+O que eh o endereco de um ponteiro?
+
+O endereco de um ponteiro nada mais eh do que o endereco de memoria para o qual aquele ponteiro aponta. Vale ressaltar que um ponteiro pode
+nao apontar para variavel nenhuma, dessa forma, ele recebe o endereco NULL. Porem, caso ele aponte para uma variavel, o seu endereco sera o
+endereco do local onde aquela variavel esta alocada na memoria.
+
+O que eh o conteudo de um ponteiro?
+
+O conteudo de um ponteiro eh o valor da variavel que ele aponta. Caso nao aponte para nada, seu conteudo eh nulo. Caso seja do tipo inteiro
+e aponte para uma variavel do tipo inteiro, ele recebe justamente o valor dela.
+
+O que eh o endereço de uma variavel?
+
+O endereco de uma variavel eh o local da memoria na qual ela esta armazenada.
