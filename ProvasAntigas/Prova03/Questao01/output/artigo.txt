@@ -1,0 +1,4 @@
+Um ponteiro eh uma variavel que armazena o endereco de memoria de uma variavel. Ele permite a modificacao do conteudo dessa variavel, desde
+que seja do mesmo tipo dela. Vale ressaltar que eh grande importancia para a alocacao dinamica de vetores.
+Um ponteiro para ponteiro eh aquilo que armazena o endereco de memoria de um outro ponteiro. eh utilizado para manipular matrizes com mais
+flexibilidade. 
