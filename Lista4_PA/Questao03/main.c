@@ -23,8 +23,7 @@ int main(){
         n1 = n2;
         n2 = temp;
     }
-       
-        
+         
     resultado = somaIntervalo(n1, n2);
 
     printf("A soma do intervalo de %d ate %d (com ambos inclusos): %d", n1, n2, resultado);
