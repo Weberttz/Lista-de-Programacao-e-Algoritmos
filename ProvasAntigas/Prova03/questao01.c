@@ -15,7 +15,7 @@ int main(){
 
     palavra = realloc(palavra, k); //realocação das 10 letras da string, caso o usuário passe menos
 
-    arquivo = fopen("artigo.txt", "r"); // Abrir o arquivo
+    arquivo = fopen("Arquivos/artigo.txt", "r"); // Abrir o arquivo
 
     if(arquivo == NULL){ // Se o ponteiro que aponta para o arquivo for nulo
         printf("Erro ao abrir o arquivo"); //imprimir erro 
