@@ -30,7 +30,7 @@ int main(){
     int tam = 1, num, k = 0, contador = 0;
     int *numeros = malloc(tam*sizeof(int));
 
-    arq = fopen("Arquivo.txt", "r");
+    arq = fopen("Arquivos/Arquivo.txt", "r");
 
     while(fscanf(arq, "%d", &num) != EOF){
         for(int i=0; i<tam; i++){
