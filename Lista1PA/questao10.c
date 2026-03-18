@@ -1,6 +1,6 @@
 #include <stdio.h>    
 
-void retornaHorario(){
+void retornarHorario(){
     char horario[5];  
     printf("Digite o horario que deseja chegar ao encontro: ");
     for (int i = 0; i < 5; i++)
@@ -22,15 +22,13 @@ void retornaHorario(){
     hora--;
 
     if(hora < 0){
-        hora = 23;
+        hora += 24;
     }
-    if(hora < 10 && minutos < 10)
-        printf("retorno: 0%d:0%d", hora, minutos);
-    else
-         printf("retorno: %d:%d", hora, minutos);
+
+    printf("retorno: %20d:%02d", hora, minutos);
 }
 
 int main(){
-    retornaHorario();
+    retornarHorario();
     return 0;
 }

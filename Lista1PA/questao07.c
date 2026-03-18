@@ -12,12 +12,12 @@ void calculaNotas(){
         scanf("%f", &notas[i]);
         media += notas[i]/qnt_notas;
     }
-    for(int i = 0; i<qnt_notas; i++){
-        for(int j = i; j<qnt_notas; j++){
-            if(notas[j] < notas[i]){
+    for(int i = 0; i<qnt_notas - 1; i++){
+        for(int j = 0; j<qnt_notas - 1 - i; j++){
+            if(notas[j] > notas[j+1]){
                 float aux = notas[j];
-                notas[j] = notas[i];
-                notas[i] = aux;
+                notas[j] = notas[j+1];
+                notas[j+1] = aux;
             }
         }
     }

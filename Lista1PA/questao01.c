@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-void calculaIdade(){
+void calcularIdade(){
     int idade, ano_atual, mes_atual, dia_atual, dias_vividos;
 
     struct data_nascimento_usuario{
@@ -25,9 +25,9 @@ void calculaIdade(){
     dia_atual = data_atual->tm_mday;
 
     if(mes_atual > nascimento_usuario.mes)
-    idade = ano_atual - nascimento_usuario.ano;
+        idade = ano_atual - nascimento_usuario.ano;
     else if(dia_atual > nascimento_usuario.dia)
-    idade = ano_atual - nascimento_usuario.ano;
+        idade = ano_atual - nascimento_usuario.ano;
     else idade = ano_atual - nascimento_usuario.ano -1;
 
     if(idade > 0){
@@ -39,6 +39,6 @@ void calculaIdade(){
 }
 
 int main(){
-    calculaIdade();
+    calcularIdade();
     return 0;
 }
